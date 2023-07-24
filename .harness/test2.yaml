@@ -33,4 +33,5 @@ pipeline:
                   spec:
                     shell: Bash
                     command: |
+                      mvn -e switch
                       mvn package
