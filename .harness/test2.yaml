@@ -34,4 +34,4 @@ pipeline:
                     shell: Bash
                     command: |-
                       mvn package
-                      ./mvnw spring-boot:run
+                      mvnw spring-boot:run
