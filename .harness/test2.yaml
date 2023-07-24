@@ -32,6 +32,5 @@ pipeline:
                   identifier: Run_1
                   spec:
                     shell: Bash
-                    command: |-
+                    command: |
                       mvn package
-                      mvnw spring-boot:run
